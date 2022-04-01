@@ -1,0 +1,17 @@
+﻿namespace Entites
+{
+    //public class User
+    //{
+    //}
+    public class Instructor
+    {
+        public int Id { get; set; }
+        public string FullName { get; set; }=null!;
+        public string ProfilImg { get; set; }
+        public virtual List<Course>? Courses { get; set; }   
+
+
+
+
+    }
+}
